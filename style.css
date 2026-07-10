@@ -1,0 +1,47 @@
+body { 
+    background: #0a0a0a; 
+    color: #00ff41; 
+    font-family: 'Courier New', monospace; 
+    margin: 0; 
+}
+
+.menu-icon { 
+    font-size: 30px; 
+    cursor: pointer; 
+    padding: 20px; 
+}
+
+.menu-panel { 
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background: #111; 
+    transition: 0.5s; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    border-right: 1px solid #00ff41;
+}
+
+.menu-panel a { 
+    padding: 15px; 
+    display: block; 
+    color: #00ff41; 
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+.hero { 
+    text-align: center; 
+    margin-top: 20%; 
+}
+
+.announcement { 
+    border: 2px solid #00ff41; 
+    display: inline-block; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px #00ff41;
+}
+
